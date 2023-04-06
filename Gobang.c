@@ -40,7 +40,7 @@ void draw_chessboardn(int chessboard[MAX_ROW][MAX_COL],int row, int col)
         for(int j=0;j<col;j++)
         {
             if(chessboard[i][j] == BLANK)
-                draw_chessman(chessboard[i][j]," .");
+                draw_chessman(chessboard[i][j]," ¡¤");
             if(chessboard[i][j] == BLACK)
                 draw_chessman(chessboard[i][j]," ");
             if(chessboard[i][j] == WHITE)
